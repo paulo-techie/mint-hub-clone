@@ -1,19 +1,19 @@
 <html>
     <head>
+        <link rel="stylesheet"  href="css/styles.css"/>          
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>A Clone of Mint Hub Sign-up Page</title>
     </head>
     <body>
-        <section>
-            <div class="signin">
+            <aside class="signin">
                 <div class="alreadysigned">Already have an Intuit account?</div>
                 <div class="forgotuser">I forgot my User ID or Password</div>
-                <div><button name="sign-btn">Sign In</button></div>
-            </div>
-            <div class="logo"></div>
-            <div class="signup-form">
-                <div class="header">
-                mint&nbsp;quickbooks&nbsp;turbotax
-                </div>
+                <div><button name="sign-btn"><i class="fa fa-lock" aria-hidden="true"></i>
+&nbsp;Sign In</button></div>
+            </aside>
+            <section class="signup-form">
+            <div class="logo"><img src="images\intuit-logo.jpg"></div>
                 <form class="create-account-form">
                     Create an Intuit account<br>
                     One account for everything Intuit, including Mint.<br>
@@ -25,10 +25,13 @@
                     Standard call, messaging or data rates may apply.<br>
                     Password<br>
                     <input type="text"  name="password"><br>
-                    <button type="submit" name="createaccount">Create Account</button><br>
+                    <button type="submit" name="createaccount"><i class="fa fa-lock" aria-hidden="true"></i>
+                        &nbsp;Create Account</button><br>
+                    <div class="terms-privacy">
                     By clicking Create account, you agree to our<br>
                     Terms and have read and acknowledge our Privacy<br>
-                    Statement.<br>
+                    Statement.
+                    </div>
                     Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
                 </form>
                 <footer>
@@ -39,7 +42,7 @@
                     </div>
                 </footer>
 
-            </div>
+            </section>
         </section>
 
     </body>

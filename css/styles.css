@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', 'Helvetica';
+}
+
+.signin {
+    float: right;
+}
+
+.signup-form    {
+    float: center;
+}
+
+form    {
+    align-content: center;
+}
+
+.logo img {
+    width: 25%;
+}
+
+.terms-privacy {
+    font-style: italic;
+}
