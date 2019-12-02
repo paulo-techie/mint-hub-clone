@@ -1,21 +1,29 @@
 body {
     font-family: 'Arial', 'Helvetica';
+    background-color: lightgray;
 }
 
 .signin {
     float: right;
 }
 
-.signup-form    {
-    float: center;
+.create-account-form    {
+
+    width: 30%;
+    padding: 20px;
+    border:1px solid gray;
+    background-color: white;
 }
 
-form    {
-    align-content: center;
+.captcha    {
+    background-color: lightgray;
+    text-align: center;
+    padding: 0;
 }
 
 .logo img {
-    width: 25%;
+    width: 30%;
+    color: transparent;
 }
 
 .terms-privacy {
