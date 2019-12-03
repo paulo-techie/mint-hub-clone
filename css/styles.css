@@ -1,31 +1,194 @@
 body {
-    font-family: 'Arial', 'Helvetica';
-    background-color: lightgray;
+  font-family: "Arial", "Helvetica";
+  background-color: rgb(219, 220, 221);
 }
 
-.signin {
-    float: right;
+.page-header {
+  padding-bottom: 76px;
+  margin-top: -15px;
 }
 
-.create-account-form    {
-
-    width: 30%;
-    padding: 20px;
-    border:1px solid gray;
-    background-color: white;
+.page-header .page-header-items {
+  list-style: none;
+  float: right;
 }
 
-.captcha    {
-    background-color: lightgray;
-    text-align: center;
-    padding: 0;
+.page-header #forgot-password-items {
+  list-style: none;
+}
+
+.page-header .page-header-items #forgot-password,
+.page-header .page-header-items #sign-in {
+  padding: 4px 4px;
+  display: inline;
+}
+
+.page-header #forgot-password {
+  font-size: 12px;
+  line-height: 1rem;
+  color: rgb(68, 68, 68);
+  float: left;
+}
+
+.page-header .sign-in {
+  float: right;
+}
+
+.page-header button {
+  padding: 10px 22px;
+  border-radius: 4px;
+  background-color: #0077c5;
+  border: none;
+  color: white;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.signup-form .intuit-logo {
+  width: 166px;
+  margin: -20px auto;
+}
+
+.signup-form .logos {
+  padding-left: 33%;
+  color: #888;
+  font-size: 19px;
+}
+
+.signup-form .logos ul {
+  list-style: none;
+}
+
+.signup-form .logos ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.signup-form .logos img {
+  width: 24px;
+  margin: -4px;
+}
+
+.signup-form {
+  margin: 0 auto;
+}
+
+.create-account-form {
+  margin: 0 auto;
+  width: 30%;
+  padding: 5px;
+  border: 1px solid rgb(160, 158, 158);
+  background-color: white;
+}
+
+.create-account-form #form-title {
+  font-weight: lighter;
+  text-align: center;
+  color: rgb(78, 79, 80);
+}
+
+.create-account-form #form-sub-title {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(78, 79, 80);
+}
+
+.create-account-form #learn-more-link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #0077c5;
+}
+
+.create-account-form label {
+  font-size: 14px;
+  color: rgb(68, 68, 68);
+  padding: 20px;
+}
+
+.create-account-form input {
+  margin: 12px auto 20px auto;
+  border: 1px solid #c6c9cc;
+  width: 90%;
+  border-radius: 3px;
+  color: #888;
+  display: block;
+  padding: 10px 8px;
+}
+
+.create-account-form #message {
+  font-size: 10px;
+  margin: -15px 0 20px 18;
+  color: rgb(68, 68, 68);
+}
+
+.create-account-form img {
+  width: 20px;
+}
+
+.create-account-form #password {
+  background-image: url(../images/lock_left_grey_3x.png);
+  background-repeat: no-repeat;
+  background-position: 300px 5px;
+  background-size: 24px;
+}
+
+.create-account-form #create-account-btn {
+  width: 90%;
+  color: white;
+  background-color: #0077c5;
+  padding: 14px;
+  border: none;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.create-account-form .terms-privacy {
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+  color: rgb(78, 79, 80);
+}
+
+.create-account-form .terms-privacy a,
+.captcha a,
+.page-header a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.captcha {
+  background-color: rgb(219, 220, 221);
+  text-align: center;
+  padding: 21px;
+  margin: 20px -5px -5px;
+  font-size: 10px;
+  color: rgb(107, 107, 107);
+}
+
+.logo {
+  margin: 0 auto;
 }
 
 .logo img {
-    width: 30%;
-    color: transparent;
+  width: 30%;
 }
 
-.terms-privacy {
-    font-style: italic;
+footer {
+  text-align: center;
+  margin: 35px;
+  font-size: 12px;
+  color: rgb(68, 68, 68);
+}
+
+footer .footer-links{
+    list-style: none;
+}
+
+footer .footer-links li{
+    display: inline;
+}
+
+footer .footer-links li a{
+    color: inherit;
+    text-decoration: none;
 }
