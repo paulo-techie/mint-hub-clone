@@ -1,52 +1,97 @@
-<html>
-    <head>
-        <link rel="stylesheet"  href="css/styles.css"/>          
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>A Clone of Mint Hub Sign-up Page</title>
-    </head>
-    <body>
-            <aside class="signin">
-                <div class="alreadysigned">Already have an Intuit account?</div>
-                <div class="forgotuser">I forgot my User ID or Password</div>
-                <div><button name="sign-btn"><i class="fa fa-lock" aria-hidden="true"></i>
-&nbsp;Sign In</button></div>
-            </aside>
-            <section class="signup-form">
-            <div class="logo"><img src="images\intuit-logo.jpg"></div>
-                <form class="create-account-form">
-                    Create an Intuit account<br><br>
-                    One account for everything Intuit, including Mint.<br>
-                    Learn more<br><br>
-                    Email address<br>
-                    <input type="text"  name="emailaddress"><br><br>
-                    Phone (recommended)<br>
-                    <input type="text"  name="phone"><br>
-                    Standard call, messaging or data rates may apply.<br>
-                    Password<br><br>
-                    <input type="text"  name="password"><br><br>
-                    <button type="submit" name="createaccount"><i class="fa fa-lock" aria-hidden="true"></i>
-                        &nbsp;Create Account</button><br><br>
-                    <div class="terms-privacy">
-                    By clicking Create account, you agree to our<br>
-                    Terms and have read and acknowledge our Privacy<br>
-                    Statement.
-                    </div>
-                    <br>
-                    <div class="captcha">
-                    Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
-                    </div>
-                </form>
-                <footer>
-                    <div class="legal">
-                        Legal&nbsp;Privacy&nbsp;Security<br>
-                        © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>  
-                        Terms and conditions, features, support, pricing, and service options subject to change without notice.
-                    </div>
-                </footer>
+<html lang="en">
 
-            </section>
-        </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>A Clone of Mint Hub Sign-up Page</title>
+</head>
 
-    </body>
+<body>
+
+    <header class="page-header">
+        <ul class="page-header-items">
+            <li id="forgot-password">
+                <ul id="forgot-password-items">
+                    <li>Already have an Intuit account?</li>
+                    <li><a href="#">I forgot my User ID or Password</a> </li>
+                </ul>
+            </li>
+            <li id="sign-in">
+                <button name="sign-btn"><i class="fa fa-lock" aria-hidden="true"></i>
+                    &nbsp;Sign In</button>
+            </li>
+        </ul>
+    </header>
+    
+    <section class="signup-form">
+        <div class="intuit-logo">
+            <img src="images/intuit_grey.svg" alt="">
+        </div>
+        <div class="logos">
+            <ul>
+                <li><img src="images/mint-favicon.svg" alt="">&nbsp; mint</li>
+                <li><img src="images/quickbooks_favicon_2x.svg" alt="">&nbsp; quickbooks</li>
+                <li><img src="images/tt_favicon_2x.svg" alt="">&nbsp; turbotax</li>
+            </ul>
+        </div>
+
+        <form class="create-account-form">
+            <h2 id="form-title">Create an Intuit account</h2>
+            <p id="form-sub-title">
+                One account for everything Intuit, including Mint. <br>
+                <a href="#" id="learn-more-link"> Learn more</a>
+            </p>
+
+            <label>Email address</label>
+            <input type="text" name="emailaddress">
+
+            <label>Phone (recommended)</label>
+            <input type="text" name="phone">
+
+            <p id="message">Standard call, messaging or data rates may apply.</p>
+
+            <label>Password</label>
+            <input type="text" name="password" id="password">
+
+            <button type="submit" name="createaccount" id="create-account-btn">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                &nbsp;Create Account
+            </button>
+
+            <div class="terms-privacy">
+                By clicking Create account, you agree to our<br>
+                <a href="#">Terms</a>
+                and have read and acknowledge our
+                <a href="#">Privacy</a><br>
+                Statement.
+            </div>
+
+            <div class="captcha">
+                Invisible reCAPTCHA by Google
+                <a href="#">Privacy Policy</a>
+                and
+                <a href="">Terms of Use</a>
+            </div>
+        </form>
+
+        <footer>
+            <div class="legal">
+                <ul class="footer-links">
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+                © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+                registered trademarks of Intuit Inc.<br><br>
+                Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </div>
+        </footer>
+
+    </section>
+
+</body>
+
 </html>
