@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', 'Helvetica';
+    background-color: lightgray;
+}
+
+.signin {
+    float: right;
+}
+
+.create-account-form    {
+
+    width: 30%;
+    padding: 20px;
+    border:1px solid gray;
+    background-color: white;
+}
+
+.captcha    {
+    background-color: lightgray;
+    text-align: center;
+    padding: 0;
+}
+
+.logo img {
+    width: 30%;
+    color: transparent;
+}
+
+.terms-privacy {
+    font-style: italic;
+}
