@@ -1,0 +1,11 @@
+#Ignore System files
+.DS_STORE
+
+#Ignore node module folder
+node_modules
+
+#Ignore editor system files
+.vscode
+
+#Ignore package.json files
+*.json
