@@ -7,7 +7,7 @@ A clone of the [Mint.com](https://accounts.intuit.com/signup.html?offering_id=In
 * CSS
 
 ## Live Demo
-Find the live demo of this project [here](https://raw.githack.com/paulo-techie/mint-hub-clone/features/index.html)
+Find the live demo of this project [here](https://raw.githack.com/paulo-techie/mint-hub-clone/master/index.html)
 
 ## Authors
 1. Daizy Obura
