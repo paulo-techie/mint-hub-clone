@@ -79,7 +79,7 @@ body {
 .create-account-form input {
   margin: 12px auto 20px auto;
   border: 1px solid #c6c9cc;
-  width: 90%;
+  width: 84%;
   border-radius: 3px;
   color: #888;
   display: block;
@@ -88,7 +88,7 @@ body {
 
 .create-account-form #message {
   font-size: 10px;
-  margin: -15px 0 20px 18px;
+  margin: -15px 0 20px 21px;
   color: rgb(68, 68, 68);
 }
 
