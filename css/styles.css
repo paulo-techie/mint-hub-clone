@@ -8,20 +8,20 @@ body {
   margin-top: -15px;
 }
 
-.page-header #forgot-password-items {
+.page-header .forgot-password-items {
   list-style: none;
 }
 
-.page-header #forgot-password {
-  font-size: 12px;
-  line-height: 1rem;
+.page-header .forgot-password {
   color: rgb(68, 68, 68);
   float: left;
+  font-size: 12px;
+  line-height: 1rem;
 }
 
 .page-header .page-header-items {
-  list-style: none;
   float: right;
+  list-style: none;
 }
 
 .page-header .page-header-items #forgot-password,
@@ -88,7 +88,7 @@ body {
 
 .create-account-form #message {
   font-size: 10px;
-  margin: -15px 0 20px 18;
+  margin: -15px 0 20px 18px;
   color: rgb(68, 68, 68);
 }
 
@@ -131,8 +131,8 @@ body {
 
 .captcha a,
 .page-header a {
-  text-decoration: none;
   color: #0077c5;
+  text-decoration: none;
 }
 
 footer .footer-links li a {
@@ -141,8 +141,8 @@ footer .footer-links li a {
 }
 
 .create-account-form .terms-privacy a {
-  text-decoration: none;
   color: #0077c5;
+  text-decoration: none;
 }
 
 .signup-form {
@@ -150,14 +150,14 @@ footer .footer-links li a {
 }
 
 .signup-form .intuit-logo {
-  width: 166px;
   margin: -20px auto;
+  width: 166px;
 }
 
 .signup-form .logos {
-  padding-left: 33%;
   color: #888;
   font-size: 19px;
+  padding-left: 33%;
 }
 
 .signup-form .logos ul {
@@ -178,8 +178,8 @@ footer .footer-links li {
 }
 
 .signup-form .logos img {
-  width: 24px;
   margin: -4px;
+  width: 24px;
 }
 
 .logo {
